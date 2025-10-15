@@ -3,7 +3,6 @@
   "builds": [{ "src": "server.js", "use": "@vercel/node" }],
   "routes": [{ "src": "/(.*)", "dest": "server.js" }],
   "env": {
-    "PORT": "5000",
     "MONGO_URI": "mongodb+srv://admin:admin@aruncluster.c2izu.mongodb.net/?retryWrites=true&w=majority&appName=ArunCluster",
     "CLOUDINARY_CLOUD_NAME": "dmvf35ngw",
     "CLOUDINARY_API_KEY": "568677266699284",
